@@ -21,7 +21,6 @@ $(document).ready(() => {
       var newTodo = $(this).val();
       // Add new todo to ul
       $('ul').append("<li><span><i class='fa fa-trash'></i> </span>"+ newTodo +"</li>")
-      
       // Clear inputs field
       $(this).val('')
 

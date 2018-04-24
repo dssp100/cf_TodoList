@@ -36,12 +36,13 @@ li:nth-child(2n) {
   background: #f7f7f7;
 }
 
-/* ul li:last-child {
+#bottom {
   background: rgba(51, 121, 183, 1.000);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   height: 48px;
-} */
+  list-style: none;
+}
 
 span {
   background: rgba(115, 116, 114, 1.000);
